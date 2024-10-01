@@ -109,12 +109,12 @@ const Hero = () => {
                 objectFit='contain'
               />
             </div>
-            <div className={"w-10 h-10 filter-invert"}>
+            <div className={"filter-invert"}>
               <Image
                 src={"/python.svg"}
                 alt={"python"}
-                layout='fill'
-                objectFit='contain'
+                width={40}
+                height={40}
               />
             </div>
           </div>
