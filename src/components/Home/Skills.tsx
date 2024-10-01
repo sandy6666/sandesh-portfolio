@@ -21,9 +21,6 @@ const Skills = () => {
             <Image src='/react.svg' width={80} height={80} alt='html' />
           </div>
           <div className='flex flex-col text-center justify-center'>
-            <h3 className='font-bold text-3xl'>
-              <CountUp start={0} end={70} />%
-            </h3>
             <p className='text-gray-400'>React</p>
           </div>
         </div>
@@ -32,9 +29,6 @@ const Skills = () => {
             <Image src='/node-js.svg' width={80} height={80} alt='html' />
           </div>
           <div className='flex flex-col text-center justify-center'>
-            <h3 className='font-bold text-3xl'>
-              <CountUp start={0} end={75} />%
-            </h3>
             <p className='text-gray-400'>Node</p>
           </div>
         </div>
@@ -49,9 +43,6 @@ const Skills = () => {
             />
           </div>
           <div className='flex flex-col text-center justify-center'>
-            <h3 className='font-bold text-3xl'>
-              <CountUp start={0} end={70} />%
-            </h3>
             <p className='text-gray-400'>Next JS</p>
           </div>
         </div>
@@ -60,9 +51,6 @@ const Skills = () => {
             <Image src='/mysql.svg' width={80} height={80} alt='html' />
           </div>
           <div className='flex flex-col text-center justify-center'>
-            <h3 className='font-bold text-3xl'>
-              <CountUp start={0} end={85} />%
-            </h3>
             <p className='text-gray-400'>Mysql</p>
           </div>
         </div>
@@ -71,9 +59,6 @@ const Skills = () => {
             <Image src='/mongodb.svg' width={80} height={80} alt='html' />
           </div>
           <div className='flex flex-col text-center justify-center'>
-            <h3 className='font-bold text-3xl'>
-              <CountUp start={0} end={55} />%
-            </h3>
             <p className='text-gray-400'>Mongo</p>
           </div>
         </div>
@@ -82,9 +67,6 @@ const Skills = () => {
             <Image src='/php.svg' width={80} height={80} alt='html' />
           </div>
           <div className='flex flex-col text-center justify-center'>
-            <h3 className='font-bold text-3xl'>
-              <CountUp start={0} end={80} />%
-            </h3>
             <p className='text-gray-400'>php</p>
           </div>
         </div>
@@ -93,9 +75,6 @@ const Skills = () => {
             <Image src='/python.svg' width={80} height={80} alt='html' />
           </div>
           <div className='flex flex-col text-center justify-center'>
-            <h3 className='font-bold text-3xl'>
-              <CountUp start={0} end={65} />%
-            </h3>
             <p className='text-gray-400'>Python</p>
           </div>
         </div>
@@ -104,10 +83,7 @@ const Skills = () => {
             <Image src='/docker-icon.svg' width={80} height={80} alt='html' />
           </div>
           <div className='flex flex-col text-center justify-center'>
-            <h3 className='font-bold text-3xl'>
-              <CountUp start={0} end={50} />%
-            </h3>
-            <p className='text-gray-400'>Docker</p>
+            <p className='text-gray-400 mt-4'>Docker</p>
           </div>
         </div>
       </div>
