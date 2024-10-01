@@ -101,12 +101,12 @@ const Hero = () => {
                 </defs>
               </svg>
             </div>
-            <div className={"w-12 h-12 filter-invert"}>
+            <div className={"filter-invert"}>
               <Image
                 src={"/docker-icon.svg"}
                 alt={"docker-icon"}
-                layout='fill'
-                objectFit='contain'
+                width={40}
+                height={40}
               />
             </div>
             <div className={"filter-invert"}>
