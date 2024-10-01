@@ -105,8 +105,8 @@ const Hero = () => {
               <Image
                 src={"/docker-icon.svg"}
                 alt={"docker-icon"}
-                width={40}
-                height={40}
+                width={45}
+                height={45}
               />
             </div>
             <div className={"filter-invert"}>
