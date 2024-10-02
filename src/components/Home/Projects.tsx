@@ -16,7 +16,7 @@ const Projects = () => {
         </p>
         <div className='projects mt-20'>
           <div className='flex flex-wrap justify-center gap-4'>
-            <div className='bg-gray-900 text-white p-6 rounded-lg w-[640px] h-[660px] mx-auto shadow-md border-gray-600 hover:border-primary border-2 transition-colors duration-500'>
+            <div className='bg-gray-900 text-white p-6 rounded-lg w-[300px] sm:w-[400px] md:w-[550px] lg:w-[640px] h-[400px] sm:h-[500px] lg:h-[660px] mx-auto shadow-md border-gray-600 hover:border-primary border-2 transition-colors duration-500'>
               {/* Image Section */}
               <div className='relative w-full h-[85%] mb-4'>
                 <Image
