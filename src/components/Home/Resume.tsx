@@ -31,7 +31,7 @@ const Resume = () => {
           <div className='exp-and-edu-cards gap-10 flex flex-col lg:flex-row'>
             <div className='education h-full flex flex-col md:flex-1 bg-[#24242D] w-full p-10 rounded-lg border-2 border-gray-600'>
               <div className='flex w-full items-center h-[53px]'>
-                <div className='border-b-2 border-primary h-full flex items-center'>
+                <div className='border-b-2 border-white h-full flex items-center'>
                   <Image
                     className='pb-2 pr-1'
                     alt='education-icon'
@@ -45,8 +45,8 @@ const Resume = () => {
                 </div>
               </div>
               <div className='text-white mt-10'>
-                <div className='p-4 border-primary border-[1px] rounded-xl hover:border-white transition-colors duration-500'>
-                  <div className='font-extrabold text-primary'>2015-2019</div>
+                <div className='p-4 border-white border-[1px] rounded-xl hover:border-white transition-colors duration-500'>
+                  <div className='font-extrabold text-white'>2015-2019</div>
                   <h5 className='font-bold text-2xl'>
                     Bachelor of Engineering
                   </h5>
@@ -58,7 +58,7 @@ const Resume = () => {
             </div>
             <div className='experience h-full flex flex-col md:flex-1 bg-[#24242D] w-full p-10 rounded-lg border-2 border-gray-600'>
               <div className='flex w-full items-center h-[53px]'>
-                <div className='border-b-2 border-primary h-full flex items-center'>
+                <div className='border-b-2 border-white h-full flex items-center'>
                   <Image
                     className='pb-2 pr-1'
                     alt='experience-icon'
@@ -72,9 +72,9 @@ const Resume = () => {
                 </div>
               </div>
               <div className='text-white mt-10'>
-                <div className='p-4 border-primary border-[1px] flex rounded-xl justify-between hover:border-white transition-colors duration-500'>
+                <div className='p-4 border-white border-[1px] flex rounded-xl justify-between hover:border-white transition-colors duration-500'>
                   <div className=''>
-                    <div className='font-extrabold text-primary'>
+                    <div className='font-extrabold text-white'>
                       2021-Present
                     </div>
                     <h5 className='font-bold text-2xl'>
@@ -93,9 +93,9 @@ const Resume = () => {
                 </div>
               </div>
               <div className='text-white mt-10'>
-                <div className='p-4 border-primary border-[1px] flex rounded-xl justify-between hover:border-white transition-colors duration-500'>
+                <div className='p-4 border-white border-[1px] flex rounded-xl justify-between hover:border-white transition-colors duration-500'>
                   <div className=''>
-                    <div className='font-extrabold text-primary'>2019-2021</div>
+                    <div className='font-extrabold text-white'>2019-2021</div>
                     <h5 className='font-bold text-2xl'>Software Developer</h5>
                     <div className='font-light text-[#8f8f92]'>
                       Codilar Technologies

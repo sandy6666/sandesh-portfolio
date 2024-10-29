@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowDownToLine } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -22,14 +23,19 @@ const Hero = () => {
             interactive experiences.
           </p>
           <div>
-            <button
+            <Link
+              href={
+                "https://drive.google.com/file/d/1gM5NGw4N68XjQfIcV89dErm0i73A0qZo/view?usp=sharing"
+              }
+              rel='noopener noreferrer'
+              target='_blank'
               className={
                 "w-[176px] h-[58px] text-sm font-bold rounded-xl text-white flex justify-center items-center gap-2 gradient-primary filter-invert"
               }
             >
               {" "}
               Download CV <ArrowDownToLine />
-            </button>
+            </Link>
           </div>
           <div className={"text-xl text-[#575454]"}>
             + 5 years with professional web development
