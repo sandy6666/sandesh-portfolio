@@ -38,12 +38,8 @@ const items = [
         icon: StickyNote,
         children: [
             {
-                title: "Pages",
-                url: "dashboard/pages",
-            },
-            {
                 title: "Blogs",
-                url: "dashboard/blogs",
+                url: "/admin/dashboard/blogs",
             },
         ]
     },
