@@ -27,7 +27,7 @@ export async function DELETE(request: Request) {
                 'Content-Type': 'application/json',
             }
         });
-    } catch (error) {
+    } catch (error: any) {
         return new Response(JSON.stringify({
             message: "Error deleting blog. It may not exist.",
             error: error.message,

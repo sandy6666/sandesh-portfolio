@@ -27,7 +27,16 @@ const CMSBlogs = () => {
             body: JSON.stringify({ pageSize, curPage }),
         });
         const result = await response.json();
-        setData(JSON.parse(result.blogs));
+        const processedData = result.blogs.map((item: any) => ({
+            id: item.id,
+            title: item.title,
+            blog_id: item.blog_id,
+            devToTitle: item.dev_to_data.title,
+            publishedAt: new Date(item.dev_to_data.published_at).toLocaleDateString(),
+            author: item.dev_to_data.user.name,
+            url_key: item.url_key,
+        }));
+        setData(processedData);
     };
 
     const handleEdit = (item: BlogItem) => {

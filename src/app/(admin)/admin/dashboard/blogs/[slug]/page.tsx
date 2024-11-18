@@ -49,8 +49,8 @@ const CMSEdit = ({ params }) => {
             getPost(slug)
                 .then((response) => response.json())
                 .then((r) => {
-                    setCmsContent(r.blogs);
-                    reset(r.blogs); // Set fetched values as initial form values
+                    setCmsContent(r.blog);
+                    reset(r.blog); // Set fetched values as initial form values
                 });
         }
     }, [slug, reset]);

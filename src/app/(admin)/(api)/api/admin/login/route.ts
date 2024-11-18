@@ -33,10 +33,13 @@ export async function POST(request: Request) {
         });
     }
 
-    const token = await sign({
+    const data = {
         id: user.id,
         email: user.email,
-    }, process.env.JWT_SECRET);
+    };
+    const token = sign(
+        data,
+        process.env.JWT_SECRET);
 
 
     return new Response(JSON.stringify({
