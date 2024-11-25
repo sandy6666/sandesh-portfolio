@@ -45,16 +45,16 @@ const Hero = () => {
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 viewBox='0 0 1129.16 1333.33'
-                shape-rendering='geometricPrecision'
-                text-rendering='geometricPrecision'
-                image-rendering='optimizeQuality'
-                fill-rule='evenodd'
-                clip-rule='evenodd'
+                shapeRendering='geometricPrecision'
+                textRendering='geometricPrecision'
+                imageRendering='optimizeQuality'
+                fillRule='evenodd'
+                clipRule='evenodd'
               >
                 <path
                   d='M638.91 399.93v759.5l-74.69 45.65-74.75-45.89V400.52L295.93 519.68v649.51l268.28 164.15 270.55-165.32V519.27L638.89 399.94zM564.22 0L0 341.84v649.59l146.54 86.33V428.11l417.8-254.04 418.19 253.67 1.72.98-.19 648.07 145.1-85.36V341.84L564.23 0z'
                   fill='#f26322'
-                  fill-rule='nonzero'
+                  fillRule='nonzero'
                 />
               </svg>
             </div>
@@ -62,17 +62,17 @@ const Hero = () => {
               <svg
                 viewBox='0 0 512 512'
                 xmlns='http://www.w3.org/2000/svg'
-                fill-rule='evenodd'
-                clip-rule='evenodd'
-                stroke-linejoin='round'
-                stroke-miterlimit='2'
+                fillRule='evenodd'
+                clipRule='evenodd'
+                strokeLinejoin='round'
+                strokeMiterlimit='2'
               >
                 <g transform='translate(.722 .64) scale(6.375)'>
                   <circle cx='40' cy='40' r='40' />
                   <path
                     d='M66.448 70.009L30.73 24H24v31.987h5.384v-25.15l32.838 42.427a40.116 40.116 0 004.226-3.255z'
                     fill='url(#prefix___Linear1)'
-                    fill-rule='nonzero'
+                    fillRule='nonzero'
                   />
                   <path
                     fill='url(#prefix___Linear2)'

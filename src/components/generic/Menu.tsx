@@ -33,7 +33,7 @@ export default function Menu() {
               Home
             </Link>
             <Link
-              href='/'
+              href='#services'
               className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
             >
               Services
@@ -44,8 +44,7 @@ export default function Menu() {
             >
               Blog
             </Link>
-            <Link
-              href='/'
+            <Link href='#contact'
               className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium'
             >
               Contact
@@ -129,19 +128,19 @@ export default function Menu() {
             Home
           </Link>
           <Link
-            href='/services'
+            href='#services'
             className='block text-gray-300 hover:text-white px-3 py-2 rounded-md text-base font-medium'
           >
             Services
           </Link>
           <Link
-            href='/blog'
+            href='/blogs'
             className='block text-gray-300 hover:text-white px-3 py-2 rounded-md text-base font-medium'
           >
             Blog
           </Link>
           <Link
-            href='/contact'
+            href='#contact'
             className='block text-gray-300 hover:text-white px-3 py-2 rounded-md text-base font-medium'
           >
             Contact
