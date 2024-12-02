@@ -3,6 +3,7 @@ import { Urbanist } from "next/font/google";
 import "./globals.css";
 import Menu from "@/components/generic/Menu";
 import Footer from "@/components/generic/Footer";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const urbanist = Urbanist({ subsets: ["latin"] });
 
@@ -23,6 +24,7 @@ export default function RootLayout({
       {children}
       <Footer />
       </body>
+      <GoogleAnalytics gaId={process.env.NEXT_GTM_ID} />
     </html>
   );
 }
