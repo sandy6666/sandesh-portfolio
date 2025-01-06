@@ -34,7 +34,7 @@ const Page = () => {
                         date={blog.dev_to_data.published_at}
                         shortDesc={blog.shortDesc}
                         image={blog.dev_to_data.cover_image} // Assuming each blog has an image URL
-                        url={blog.dev_to_data.url}
+                        url={blog.url_key}
                     />
                 ))}
             </div>

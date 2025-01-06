@@ -1,9 +1,12 @@
 import React from 'react';
 import Image from "next/image";
+import { useRouter } from 'next/navigation'
 
 const BlogCard = ({ title, date, shortDesc, image, url }:{title: string, date: string, shortDesc: string, image: string, url: string}) => {
+    const router = useRouter()
+
     const openBlogPage = () => {
-        window.open(url);
+        router.push(`/blog/${url}`);
     }
     return (
         <div onClick={openBlogPage} className="max-w-sm mx-auto p-4 bg-gray-900 rounded-lg text-white shadow-md hover:shadow-lg w-[500px] h-[400px] border border-gray-600 hover:border-[#6e4ef2] cursor-pointer">
